@@ -11,9 +11,10 @@ conda create -n chemprop python=3.11
 conda activate chemprop
 pip install chemprop
 
-
-## Usage Example
+Usage Example
 Use the following command to make predictions with the model:
 
-```bash
+bash
 chemprop predict --test-path data.csv --model-path ./model --molecule-featurizers v1_rdkit_2d_normalized
+
+---
